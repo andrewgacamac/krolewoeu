@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Królewo - Premier cel dla nieruchomości leśnych w pobliżu Warszawy. Ekskluzywni specjaliści obsługujący międzynarodowych klientów z dostępem do najbardziej pożądanych posiadłości leśnych w Polsce.">
+    <meta name="keywords" content="nieruchomości leśne Warszawa, posiadłości Królewo, ekskluzywne nieruchomości Polska, międzynarodowe nieruchomości Polska, luksusowe posiadłości leśne Warszawa, inwestycje leśne Polska">
+    <title>Królewo - Nieruchomości Leśne Warszawa | Ekskluzywni Międzynarodowi Specjaliści Posiadłości Leśnych</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500&family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="language-switcher">
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="de">DE</button>
+                <button class="lang-btn" data-lang="fr">FR</button>
+                <button class="lang-btn active" data-lang="pl">PL</button>
+            </div>
+            <div class="nav-logo">
+                <h1 data-i18n="nav-title">Rezydencja Leśna Królewo</h1>
+                <span class="nav-tagline" data-i18n="nav-tagline">Tylko przez polecenie</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#location" class="nav-link" data-i18n="nav-location">Lokalizacja</a>
+                <a href="#properties" class="nav-link" data-i18n="nav-properties">Nieruchomości</a>
+                <a href="#nature" class="nav-link" data-i18n="nav-nature">Natura</a>
+                <a href="#investment" class="nav-link" data-i18n="nav-investment">Inwestycja</a>
+            </div>
+            <div class="nav-mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-video-wrapper">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="assets/videos/forest-seasons.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-i18n="hero-title">Rezydencja Leśna Królewo</h1>
+            <p class="hero-subtitle" data-i18n="hero-subtitle">Strażnicy ostatniej suwerennej puszczy Europy</p>
+            <p class="hero-tagline" data-i18n="hero-tagline">Gdzie dynastie zabezpieczają swoje dziedzictwo</p>
+            <div class="hero-trust-badges">
+                <div class="trust-badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <span data-i18n="hero-trust-1">Tylko za zgodą zarządu</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-globe"></i>
+                    <span data-i18n="hero-trust-2">Dwanaście rodzin na świecie</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-award"></i>
+                    <span data-i18n="hero-trust-3">Jeden klient na kwartał</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Value Proposition Bar -->
+    <section class="value-props">
+        <div class="container">
+            <div class="value-prop-grid">
+                <div class="value-prop-item">
+                    <div class="value-prop-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <div class="value-prop-content">
+                        <h3 data-i18n="value-prop-1-title">Tylko przez polecenie</h3>
+                        <p data-i18n="value-prop-1-desc">Bez wyjątków</p>
+                    </div>
+                </div>
+                <div class="value-prop-item">
+                    <div class="value-prop-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="value-prop-content">
+                        <h3 data-i18n="value-prop-2-title">Całkowita prywatność</h3>
+                        <p data-i18n="value-prop-2-desc">Brak publicznych rejestrów</p>
+                    </div>
+                </div>
+                <div class="value-prop-item">
+                    <div class="value-prop-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <div class="value-prop-content">
+                        <h3 data-i18n="value-prop-3-title">Dyskretna obsługa</h3>
+                        <p data-i18n="value-prop-3-desc">Niewidoczna doskonałość</p>
+                    </div>
+                </div>
+                <div class="value-prop-item">
+                    <div class="value-prop-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <div class="value-prop-content">
+                        <h3 data-i18n="value-prop-4-title">Posiadłości dziedzictwa</h3>
+                        <p data-i18n="value-prop-4-desc">Nigdy wcześniej nie oferowane</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Accessibility -->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="location-title">Królestwo zarezerwowane dla nielicznych</h2>
+                <p class="section-subtitle" data-i18n="location-subtitle">Nieruchomości o znaczeniu historycznym</p>
+            </div>
+            <div class="location-content">
+                <div class="location-map">
+                    <div id="interactive-map" class="map-container">
+                        <img src="assets/map.jpg" alt="Królewo Location Map" class="location-map-image">
+                    </div>
+                </div>
+                <div class="location-info">
+                    <h3 data-i18n="location-territory">Terytorium Rezydencji Leśnej Królewo</h3>
+                    <p class="location-intro" data-i18n="location-intro">Rezydencja Leśna Królewo utrzymuje ekskluzywne relacje z właścicielami posiadłości w całym regionie lasów warszawskich. Nie prowadzimy biur. Nie organizujemy dni otwartych. Każde oglądanie jest aranżowane prywatnie, każda transakcja prowadzona z absolutną dyskrecją.</p>
+                    <h4 data-i18n="location-connections">Połączenia międzynarodowe</h4>
+                    <div class="flight-times">
+                        <div class="flight-item">
+                            <div class="flight-city">
+                                <img src="assets/flags/fr.svg" alt="France" class="flag-icon">
+                                <span>Paryż</span>
+                            </div>
+                            <div class="flight-time">2h 15min</div>
+                        </div>
+                        <div class="flight-item">
+                            <div class="flight-city">
+                                <img src="assets/flags/de.svg" alt="Germany" class="flag-icon">
+                                <span>Berlin</span>
+                            </div>
+                            <div class="flight-time">1h 30min</div>
+                        </div>
+                        <div class="flight-item">
+                            <div class="flight-city">
+                                <img src="assets/flags/gb.svg" alt="UK" class="flag-icon">
+                                <span>Londyn</span>
+                            </div>
+                            <div class="flight-time">2h 45min</div>
+                        </div>
+                    </div>
+                    <div class="location-features">
+                        <div class="feature-item">
+                            <i class="fas fa-road"></i>
+                            <p data-i18n="location-feature-1">Doskonała infrastruktura drogowa do Warszawy (55km)</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-wifi"></i>
+                            <p data-i18n="location-feature-2">Pokrycie internetem światłowodowym (81,1% w Polsce)</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-plane-arrival"></i>
+                            <p data-i18n="location-feature-3">35km od lotniska Warszawa Modlin</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bespoke Service -->
+    <section class="bespoke-service" id="properties">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="properties-title">Portfolio Rezydencji Leśnej Królewo</h2>
+                <p class="section-subtitle" data-i18n="properties-subtitle">Posiadłości godne Twojego nazwiska</p>
+            </div>
+            <div class="service-content">
+                <div class="service-intro">
+                    <p class="lead-text" data-i18n="properties-lead">Rezydencja Leśna Królewo kuratoruje posiadłości o takiej wielkości, że przekraczają konwencjonalne nieruchomości. Mówimy o nieruchomościach mierzonych nie w hektarach, ale w kilometrach kwadratowych—dziewicze lasy, które pozostały nietknięte od czasów średniowiecza, wraz z prywatnymi jeziorami, rzekami i historycznymi pałacami.</p>
+                    <div class="market-insight">
+                        <h3 data-i18n="properties-difference">Różnica Rezydencji Leśnej Królewo</h3>
+                        <p data-i18n="properties-difference-text-1">To nie są zwykłe nieruchomości. To terytoria, gdzie niegdyś polowała królewska rodzina, gdzie najbliższy sąsiad jest za horyzontem, gdzie twoje nazwisko będzie szeptane z taką samą czcią jak tych, którzy trzymali te ziemie przez wieki przed tobą.</p>
+                        <p data-i18n="properties-difference-text-2">Nasi klienci to ci, których podpisy poruszają rynki, których nazwiska zdobją skrzydła muzeów, których rodziny kształtowały bieg narodów. Rozumieją, że prawdziwe bogactwo mierzy się nie w liczbach, ale w dziedzictwie.</p>
+                    </div>
+                    <div class="exclusive-services">
+                        <h3 data-i18n="service-title">Obsługa Sprzedających i Kupujących — Wyłącznie przez Polecenie</h3>
+                        <p class="service-highlight" data-i18n="service-highlight">Rezydencja Leśna Królewo reprezentuje zarówno właścicieli pragnących sprzedać swoje historyczne posiadłości, jak i nabywców poszukujących wyjątkowych nieruchomości. Nasza dwustronna usługa jest dostępna wyłącznie przez osobiste polecenie od obecnych klientów.</p>
+                        <div class="service-columns">
+                            <div class="service-column">
+                                <h4><i class="fas fa-key"></i> <span data-i18n="service-sellers-title">Dla Właścicieli</span></h4>
+                                <p data-i18n="service-sellers-desc">Jeśli rozważają Państwo sprzedaż swojej posiadłości, zapewniamy absolutną dyskrecję i dostęp do naszej ekskluzywnej sieci nabywców. Państwa nieruchomość nigdy nie pojawi się na otwartym rynku.</p>
+                            </div>
+                            <div class="service-column">
+                                <h4><i class="fas fa-crown"></i> <span data-i18n="service-buyers-title">Dla Nabywców</span></h4>
+                                <p data-i18n="service-buyers-desc">Oferujemy dostęp do posiadłości, które nigdy nie były publicznie oferowane. Nasi klienci otrzymują pierwszeństwo w oglądaniu nieruchomości przed jakimkolwiek rozważaniem szerszego marketingu.</p>
+                            </div>
+                        </div>
+                        <p class="invitation-notice"><strong data-i18n="invitation-notice">Dostęp tylko przez pisemne polecenie od istniejącego klienta.</strong></p>
+                    </div>
+                </div>
+                <div class="service-features">
+                    <div class="service-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-compass"></i>
+                        </div>
+                        <h3 data-i18n="service-feature-1-title">Wymagana zgoda zarządu</h3>
+                        <p data-i18n="service-feature-1-desc">Każdy potencjalny klient musi zostać zatwierdzony przez naszą radę doradczą obecnych właścicieli posiadłości. Utrzymujemy relacje tylko z dwunastoma rodzinami na świecie w danym czasie.</p>
+                    </div>
+                    <div class="service-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <h3 data-i18n="service-feature-2-title">Suwerenna prywatność</h3>
+                        <p data-i18n="service-feature-2-desc">Nieruchomości tej wielkości nie mają adresów. Mają współrzędne. Oglądanie wymaga podpisanych umów o zachowaniu poufności, kontroli bezpieczeństwa i często dyplomatycznej kurtuazji.</p>
+                    </div>
+                    <div class="service-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-concierge-bell"></i>
+                        </div>
+                        <h3 data-i18n="service-feature-3-title">Absolutna dyskrecja</h3>
+                        <p data-i18n="service-feature-3-desc">Rezydencja Leśna Królewo nie utrzymuje publicznej obecności poza tym wprowadzeniem. Wszystkie transakcje prowadzone są w pełnej poufności, z dokumentacją obsługiwaną przez prywatne kanały.</p>
+                    </div>
+                </div>
+                <div class="consultation-cta">
+                    <p class="cta-pretext" data-i18n="consultation-cta-pretext">Wprowadzenie tylko przez istniejących właścicieli posiadłości</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Królewo Advantage -->
+    <section class="nature" id="nature">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="nature-title">Przewaga Królewa</h2>
+                <p class="section-subtitle" data-i18n="nature-subtitle">Dlaczego wymagający nabywcy wybierają tę wyjątkową lokalizację</p>
+            </div>
+            <div class="advantage-content">
+                <div class="forest-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-tree"></i>
+                        </div>
+                        <h3 data-i18n="stat-1-title">Minimum 1000+ hektarów</h3>
+                        <p data-i18n="stat-1-desc">Podczas gdy inni oferują działki, my prezentujemy królestwa. Nasza najmniejsza posiadłość obejmuje 1000 hektarów dziewiczego lasu. Największe przekraczają 5000 hektarów—terytoria większe niż suwerenne narody.</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3 data-i18n="stat-2-title">Prywatna dzicz</h3>
+                        <p data-i18n="stat-2-desc">Te lasy nie znały publicznego dostępu od wieków. Stary drzewostan, gdzie wciąż wędrują wilki i rysie. Gdzie możesz jeździć konno przez dni bez opuszczania swojej ziemi.</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 data-i18n="stat-3-title">Historyczna proweniencja</h3>
+                        <p data-i18n="stat-3-desc">Każda posiadłość pochodzi z wiekami udokumentowanej historii. Dawne królewskie tereny łowieckie. Rodowe siedziby europejskiej szlachty. Nieruchomości wspomniane w średniowiecznych kronikach.</p>
+                    </div>
+                </div>
+                
+                <div class="lifestyle-benefits">
+                    <h3 data-i18n="lifestyle-title">Styl życia jak żaden inny</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <h4 data-i18n="benefit-1-title">Suwerenna izolacja</h4>
+                            <p data-i18n="benefit-1-desc">Twój własny prywatny naród. Nieruchomości tak rozległe, że pojawiają się na mapach satelitarnych. Gdzie helikopter nie jest luksusem, ale koniecznością do przeglądu twojej domeny.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h4 data-i18n="benefit-2-title">Czterosezonowy raj</h4>
+                            <p data-i18n="benefit-2-desc">Od wiosennych dzikich kwiatów po jesienne zbiory grzybów, od letnich kąpieli leśnych po zimową krainę czarów pokrytą śniegiem - każda pora roku przynosi swoją własną magię.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h4 data-i18n="benefit-3-title">Wellness i regeneracja</h4>
+                            <p data-i18n="benefit-3-desc">Terapia leśna nie jest tu tylko trendem - to sposób życia. Japońska koncepcja "shinrin-yoku" znajduje swój doskonały wyraz w starych lasach Królewa.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h4 data-i18n="benefit-4-title">Kulturowa autentyczność</h4>
+                            <p data-i18n="benefit-4-desc">Doświadcz prawdziwej polskiej kultury leśnej - od tradycyjnego zbierania grzybów po spotkania z lokalną dziką przyrodą, to jest Europa, jaka była kiedyś.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="investment-perspective">
+                    <h3 data-i18n="investment-perspective-title">Inwestycja w rzadkość</h3>
+                    <p class="investment-intro" data-i18n="investment-perspective-desc">Rozważ: terytoria większe niż samo Monako, dziewicze lasy niezmienione od czasów średniowiecznych, całkowita prywatność godzinę od europejskiej stolicy. Nasi klienci rozumieją, że takie możliwości pojawiają się być może raz na sto lat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Potential -->
+    <section class="investment" id="investment">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="investment-title">Przekonująca narracja</h2>
+                <p class="section-subtitle" data-i18n="investment-subtitle">Dlaczego najbardziej wymagające rodziny świata nabywają polskie posiadłości leśne</p>
+            </div>
+            <div class="investment-content">
+                <div class="market-data">
+                    <h3 data-i18n="market-data-title">Wyniki rynkowe</h3>
+                    <div class="data-highlights">
+                        <div class="data-item">
+                            <div class="data-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h4 data-i18n="data-item-1-title">Aktywa pokoleniowe</h4>
+                            <p data-i18n="data-item-1-desc">Posiadłości, nie nieruchomości</p>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <h4 data-i18n="data-item-2-title">Pojawiająca się okazja</h4>
+                            <p data-i18n="data-item-2-desc">Przed powszechnym odkryciem</p>
+                        </div>
+                        <div class="data-item">
+                            <div class="data-icon">
+                                <i class="fas fa-euro-sign"></i>
+                            </div>
+                            <h4 data-i18n="data-item-3-title">Raz w historii</h4>
+                            <p data-i18n="data-item-3-desc">Nigdy do powtórzenia</p>
+                        </div>
+                    </div>
+                    <div class="comparison-chart">
+                        <h4 data-i18n="comparison-title">Kwestia skali</h4>
+                        <div class="comparison-grid">
+                            <div class="comparison-item">
+                                <h5 data-i18n="comparison-1-title">Rezydencja Leśna Królewo</h5>
+                                <p data-i18n="comparison-1-item-1">5000 hektarów dziewiczego lasu</p>
+                                <p data-i18n="comparison-1-item-2">Twoje własne rzeki i jeziora</p>
+                                <p data-i18n="comparison-1-item-3">Całkowita suwerenność</p>
+                            </div>
+                            <div class="comparison-item">
+                                <h5 data-i18n="comparison-2-title">Alternatywne aktywa</h5>
+                                <p data-i18n="comparison-2-item-1">Piętro na Manhattanie</p>
+                                <p data-i18n="comparison-2-item-2">Willa w Cap Ferrat</p>
+                                <p data-i18n="comparison-2-item-3">Sąsiedzi wszędzie</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buyer Journey -->
+    <section class="buyer-journey" id="process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="process-title">Proces nabycia</h2>
+                <p class="section-subtitle" data-i18n="process-subtitle">Przemyślane podejście do znaczących akwizycji</p>
+            </div>
+            <div class="journey-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-number">1</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="process-step-1-title">Formalne wprowadzenie</h3>
+                        <p data-i18n="process-step-1-desc">Dostęp do Rezydencji Leśnej Królewo wymaga pisemnego wprowadzenia od istniejącego klienta</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">2</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="process-step-2-title">Prezentacja posiadłości</h3>
+                        <p data-i18n="process-step-2-desc">Dostęp do nieruchomości zgodnych z Twoimi wymaganiami, często przed formalnym wejściem na rynek</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">3</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="process-step-3-title">Prywatne oglądanie</h3>
+                        <p data-i18n="process-step-3-desc">Wycieczki helikopterem i prywatny dostęp zorganizowany z absolutną dyskrecją</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">4</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="process-step-4-title">Bezproblemowa akwizycja</h3>
+                        <p data-i18n="process-step-4-desc">Ekspercka pomoc prawna i finansowa aż do pomyślnego zakończenia</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">5</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="process-step-5-title">Ciągła doskonałość</h3>
+                        <p data-i18n="process-step-5-desc">Kompleksowe zarządzanie nieruchomościami i usługi concierge po akwizycji</p>
+                    </div>
+                </div>
+            </div>
+            <div class="support-services">
+                <h3 data-i18n="support-services-title">Pełne usługi wsparcia</h3>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <i class="fas fa-language"></i>
+                        <h4 data-i18n="support-service-1-title">Usługi tłumaczeniowe</h4>
+                        <p data-i18n="support-service-1-desc">Wszystkie dokumenty w Twoim języku</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-gavel"></i>
+                        <h4 data-i18n="support-service-2-title">Pomoc prawna</h4>
+                        <p data-i18n="support-service-2-desc">Eksperci prawa nieruchomości UE</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-home"></i>
+                        <h4 data-i18n="support-service-3-title">Zarządzanie nieruchomościami</h4>
+                        <p data-i18n="support-service-3-desc">Usługi konserwacji i wynajmu</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-euro-sign"></i>
+                        <h4 data-i18n="support-service-4-title">Planowanie finansowe</h4>
+                        <p data-i18n="support-service-4-desc">Doradztwo inwestycyjne i podatkowe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="testimonials-title">Ich słowami</h2>
+                <p class="section-subtitle" data-i18n="testimonials-subtitle">Wybrane perspektywy właścicieli posiadłości</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <img src="assets/flags/fr.svg" alt="France" class="testimonial-flag">
+                        <h4 data-i18n="testimonial-1-name">Dom [Zamazany]</h4>
+                        <p class="testimonial-location" data-i18n="testimonial-1-location">Europejska dynastia</p>
+                        <p class="testimonial-text" data-i18n="testimonial-1-text">"Dzięki Rezydencji Leśnej Królewo nabył posiadłość trzymaną przez polską szlachtę od 1387 roku. Trzy tysiące hektarów nietkniętej dziczy. Dzieci naszych dzieci poznają prawdziwą prywatność."</p>
+                        <div class="testimonial-property">
+                            <i class="fas fa-crown"></i> <span data-i18n="testimonial-1-property">Dawna domena królewska</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <img src="assets/flags/de.svg" alt="Germany" class="testimonial-flag">
+                        <h4 data-i18n="testimonial-2-name">[Fortuna przemysłowa]</h4>
+                        <p class="testimonial-location" data-i18n="testimonial-2-location">Korporacja DAX</p>
+                        <p class="testimonial-text" data-i18n="testimonial-2-text">"Nasz zarząd ocenił posiadłości na całym świecie. Nieruchomość przedstawiona przez Rezydencję Leśną Królewo—wraz z zamkiem z XIV wieku—oferowała skalę i prywatność niedostępną nigdzie indziej w Europie."</p>
+                        <div class="testimonial-property">
+                            <i class="fas fa-chess-rook"></i> <span data-i18n="testimonial-2-property">Średniowieczny kompleks posiadłości</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <img src="assets/flags/gb.svg" alt="UK" class="testimonial-flag">
+                        <h4 data-i18n="testimonial-3-name">[Prywatne biuro]</h4>
+                        <p class="testimonial-location" data-i18n="testimonial-3-location">Suwerenne bogactwo</p>
+                        <p class="testimonial-text" data-i18n="testimonial-3-text">"Prawie pięć tysięcy hektarów—nasz europejski okręt flagowy. Rezydencja Leśna Królewo zrozumiała, że przy akwizycjach tej wielkości dyskrecja nie jest usługą, ale koniecznością."</p>
+                        <div class="testimonial-property">
+                            <i class="fas fa-globe-europe"></i> <span data-i18n="testimonial-3-property">Terytorium w skali suwerennej</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Credibility -->
+    <section class="trust" id="trust">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="trust-title">Bezkompromisowe standardy</h2>
+                <p class="section-subtitle" data-i18n="trust-subtitle">Doskonałość w każdym szczególe</p>
+            </div>
+            <div class="trust-content">
+                <div class="trust-features">
+                    <div class="trust-feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3 data-i18n="trust-feature-1-title">Zweryfikowana własność</h3>
+                        <p data-i18n="trust-feature-1-desc">Bezpośrednio od rodzin, które trzymają te posiadłości od pokoleń</p>
+                    </div>
+                    <div class="trust-feature">
+                        <i class="fas fa-certificate"></i>
+                        <h3 data-i18n="trust-feature-2-title">Prywatna sieć</h3>
+                        <p data-i18n="trust-feature-2-desc">Rezydencja Leśna Królewo współpracuje tylko z rodzinami o ustalonej proweniencji</p>
+                    </div>
+                    <div class="trust-feature">
+                        <i class="fas fa-lock"></i>
+                        <h3 data-i18n="trust-feature-3-title">Bezpieczne transakcje</h3>
+                        <p data-i18n="trust-feature-3-desc">Wszystkie transakcje obsługiwane przez oficjalne akty notarialne i zarejestrowane banki</p>
+                    </div>
+                    <div class="trust-feature">
+                        <i class="fas fa-headset"></i>
+                        <h3 data-i18n="trust-feature-4-title">Ciągłe wsparcie</h3>
+                        <p data-i18n="trust-feature-4-desc">Dedykowany zespół wsparcia dostępny przed, w trakcie i po zakupie</p>
+                    </div>
+                </div>
+                <div class="partners-section">
+                    <h3 data-i18n="partners-section-title">Ekskluzywna sieć partnerów</h3>
+                    <div class="partners-grid">
+                        <div class="partner-item">
+                            <div class="partner-icon">
+                                <i class="fas fa-balance-scale"></i>
+                            </div>
+                            <h4 data-i18n="partner-1-title">Międzynarodowe kancelarie prawne</h4>
+                            <p data-i18n="partner-1-desc">Wiodący europejscy specjaliści od nieruchomości</p>
+                        </div>
+                        <div class="partner-item">
+                            <div class="partner-icon">
+                                <i class="fas fa-file-signature"></i>
+                            </div>
+                            <h4 data-i18n="partner-2-title">Prywatni notariusze</h4>
+                            <p data-i18n="partner-2-desc">Dyskretna obsługa transakcji</p>
+                        </div>
+                        <div class="partner-item">
+                            <div class="partner-icon">
+                                <i class="fas fa-chess-king"></i>
+                            </div>
+                            <h4 data-i18n="partner-3-title">Zarządzanie posiadłością</h4>
+                            <p data-i18n="partner-3-desc">Najwyższej klasy usługi nieruchomościowe</p>
+                        </div>
+                        <div class="partner-item">
+                            <div class="partner-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <h4 data-i18n="partner-4-title">Bankowość prywatna</h4>
+                            <p data-i18n="partner-4-desc">Partnerzy zarządzania majątkiem</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title" data-i18n="cta-title">Rezydencja Leśna Królewo</h2>
+                <p class="cta-subtitle" data-i18n="cta-subtitle">Wymagane wprowadzenie • Zapewniona dyskrecja • Zachowane dziedzictwo</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 data-i18n="footer-brand">Rezydencja Leśna Królewo</h3>
+                    <p data-i18n="footer-brand-desc">Międzynarodowi specjaliści w ekskluzywnych posiadłościach leśnych</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer-links-title">Szybkie linki</h4>
+                    <ul>
+                        <li><a href="#properties" data-i18n="footer-link-1">Nasza ekspertyza</a></li>
+                        <li><a href="#investment" data-i18n="footer-link-2">Wgląd w inwestycje</a></li>
+                        <li><a href="#process" data-i18n="footer-link-3">Nasz proces</a></li>
+                        <li><a href="#nature" data-i18n="footer-link-4">Region</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-i18n="footer-contact-title">Nasz focus</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-i18n="footer-contact-1">Obsługa regionu Warszawy i Królewa</span></p>
+                    <p><i class="fas fa-crown"></i> <span data-i18n="footer-contact-2">Posiadłości leśne w skali suwerennej</span></p>
+                    <p><i class="fas fa-globe-europe"></i> <span data-i18n="footer-contact-3">Międzynarodowa ekspertyza</span></p>
+                </div>
+                <div class="footer-newsletter">
+                    <h4 data-i18n="footer-newsletter-title">Nasza ekspertyza</h4>
+                    <p data-i18n="footer-newsletter-1">Specjaliści w nieruchomościach leśnych regionu Warszawy</p>
+                    <p data-i18n="footer-newsletter-2">Obsługa wymagających klientów międzynarodowych</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer-copyright">&copy; 2024 Rezydencja Leśna Królewo. Dostęp tylko przez wprowadzenie.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/language-switcher.js"></script>
+</body>
+</html>

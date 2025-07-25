@@ -1,0 +1,33 @@
+{
+  "name": "krolewo-website",
+  "version": "1.0.0",
+  "description": "Królewo Forest Living - Premium forest cottages in Poland for Western European buyers",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "serve": "python3 server.py",
+    "build": "echo 'This is a static site - no build required'",
+    "compress-images": "echo 'TODO: Add image compression script'",
+    "validate-html": "npx html-validator index.html",
+    "format": "npx prettier --write '**/*.{html,css,js,json}'"
+  },
+  "keywords": [
+    "real-estate",
+    "poland",
+    "forest-cottages",
+    "investment",
+    "krolewo"
+  ],
+  "author": "Królewo Development Team",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "prettier": "^3.0.0",
+    "html-validator": "^5.1.18"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "printWidth": 100
+  }
+}
