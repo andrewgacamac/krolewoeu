@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npx http-server -p 8000 -o",
     "serve": "python3 server.py",
-    "build": "echo 'This is a static site - no build required'",
+    "build": "mkdir -p public && cp -r index.html css js assets public/",
     "compress-images": "echo 'TODO: Add image compression script'",
     "validate-html": "npx html-validator index.html",
     "format": "npx prettier --write '**/*.{html,css,js,json}'"
