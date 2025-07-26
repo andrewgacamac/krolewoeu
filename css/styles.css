@@ -191,7 +191,8 @@ img {
 .language-switcher {
     display: flex;
     gap: 0.5rem;
-    margin-right: 2rem;
+    margin-left: auto;
+    margin-right: 1.5rem;
 }
 
 .lang-btn {
@@ -331,6 +332,7 @@ img {
 
 .nav-mobile-toggle {
     display: none;
+    margin-left: 0;
 }
 
 /* Hero Section */
@@ -1731,6 +1733,22 @@ section {
         transform: rotate(-45deg) translate(7px, -6px);
     }
     
+    /* Language Switcher on Mobile */
+    .language-switcher {
+        margin-left: auto;
+        margin-right: 0.5rem;
+    }
+    
+    .lang-btn {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.75rem;
+    }
+    
+    /* Hide language switcher when menu is open */
+    .nav-menu.active ~ .language-switcher {
+        opacity: 0;
+        pointer-events: none;
+    }
     
     /* Hero */
     .hero-title {
@@ -1820,6 +1838,17 @@ section {
     .btn-large {
         padding: 14px 30px;
         font-size: 1rem;
+    }
+    
+    /* Language Switcher on very small screens */
+    .language-switcher {
+        gap: 0.25rem;
+        margin-right: 0.25rem;
+    }
+    
+    .lang-btn {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.7rem;
     }
     
     .property-grid,
